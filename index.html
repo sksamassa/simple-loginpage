@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Sekou Samassa" />
+    <meta name="description" content="Задача на аттестацию по разработке интернет приложения" />
+    <link rel="stylesheet" type="text/css" href="./styles/styles.css" />
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Login Page</title>
+</head>
+
+<body>
+    <div id="row clear-fix">
+        <div class="login-aside column">
+            <div class="header">
+                <img alt="login section image" src="./images/Group 1.png"/>
+                <h4 class="header-title">Login into your account</h4>
+            </div>
+
+            <form class="login">
+                <div class="form-item form-item-bg">
+                    <label for="email">Email address</label>
+                    <input type="email" id="email" name="user-email" placeholder="sksamassa@gmail.com" />
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                </div>
+
+                <div class="form-item form-item-bg">
+                    <label for="user-password">Password</label>
+                    <input type="password" id="user-password" name="user-password" class="adjust-pass-input" placeholder="Enter your password" />
+                    <i class="fa fa-lock" aria-hidden="true"></i>
+                    <p class="pass-bottom-desc">Forgot password?</p>
+                </div>
+
+                <div class="submit-login">
+                    <input type="submit" value="Login now" />
+                </div>
+            </form>
+
+            <div class="or">
+                <p>
+                    OR
+                </p>
+            </div>
+
+            <form class="signup" style="width: 100%;">
+                <input class="submit-signup" type="submit" value="Signup now" />
+            </form>
+        </div>
+
+        <div class="main column">
+            <img src="./images/login-illustrator.png" alt="Login illustrator" />
+        </div>
+    </div>
+</body>
+</html>
